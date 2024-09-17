@@ -12,6 +12,9 @@ import img_yena from "../../public/assets/img/전예나.png";
 import img_sohyun from "../../public/assets/img/오소현.png";
 import img_jieun from "../../public/assets/img/김지은.png";
 
+// 벡곰 이미지
+import img_introVecgom from "../../public/assets/img/introVecgom.svg";
+
 // 아이콘
 import icon_mail from "../../public/assets/icon/icon_mail.svg";
 import icon_blog from "../../public/assets/icon/icon_blog.svg";
@@ -33,6 +36,8 @@ export const Images: ImagesType = {
   img_yena: img_yena,
   img_sohyun: img_sohyun,
   img_jieun: img_jieun,
+  
+  img_introVecgom: img_introVecgom,
 
   
 };
