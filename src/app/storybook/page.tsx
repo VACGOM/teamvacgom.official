@@ -6,11 +6,13 @@ import {Container} from './style';
 import TeamCard from "@/app/_component/molecule/TeamCard";
 
 
-export default function Intoduce() {
+export default function StoryBook() {
 
   return (
     <Container>
+      <div className="flex">
       <TeamCard />
+      </div>
     </Container>
   );
 }
