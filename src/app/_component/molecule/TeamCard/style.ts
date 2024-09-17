@@ -6,9 +6,12 @@ export const TeamCardWrap = styled.div`
 
   border-radius: 20px;
   border: 1px solid #e5e8eb;
+  box-sizing: border-box;
 
   & > .top {
+    overflow: hidden;
     & > img {
+      display: block; // 이미 주졉ㄴ 여백 제거
       border-radius: 20px 20px 0 0;
       overflow: hidden;
     }

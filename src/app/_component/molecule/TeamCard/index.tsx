@@ -6,12 +6,12 @@ import { Images } from "@/styles/images";
 type props = {
   img: string;
   name: string;
-  part?: { main: string; sub: string };
+  part?: { main: string; sub?: string };
   link?: { mail: string; linkedIn: string; github: string; blog: string };
 };
 
 const TeamCard: React.FC<props> = ({
-  img,
+  img = Images.img_heabin,
   name = "이름",
   part = { main: "메인 파트", sub: "서브파트" },
   link = { mail: "", linkedIn: "", github: "", blog: "" },
@@ -19,7 +19,7 @@ const TeamCard: React.FC<props> = ({
   return (
     <TeamCardWrap>
       <div className="top">
-        <Image src={Images.img_heabin} alt={"팀원 이미지"} />
+        <Image src={img} alt={"팀원 이미지"} />
       </div>
       <div className="bottom">
         <div className="intro">
