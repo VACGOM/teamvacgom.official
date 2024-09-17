@@ -14,6 +14,13 @@ import img_jieun from "../../public/assets/img/김지은.png";
 
 // 벡곰 이미지
 import img_introVecgom from "../../public/assets/img/introVecgom.svg";
+import img_vecgomFace from "../../public/assets/img/img_vecgomFace.svg";
+
+// etc
+import img_Accessibility from "../../public/assets/img/img_accessibility.svg";
+import img_innovation from "../../public/assets/img/img_innovation.svg";
+import img_Sustainability from "../../public/assets/img/img_Sustainability.svg";
+import img_SocialImpact from "../../public/assets/img/img_SocialImpact.svg";
 
 // 아이콘
 import icon_mail from "../../public/assets/icon/icon_mail.svg";
@@ -29,7 +36,10 @@ export const Images: ImagesType = {
   icon_blog: icon_blog,
   icon_github: icon_github,
   
+  
   //image
+  
+  // 팀원 이미지
   img_heabin: img_heabin,
   img_minjeong: img_minjeong,
   img_hyungju: img_hyungju,
@@ -37,7 +47,15 @@ export const Images: ImagesType = {
   img_sohyun: img_sohyun,
   img_jieun: img_jieun,
   
+  // 백곰 캐릭터 관련 이미지
   img_introVecgom: img_introVecgom,
+  img_vecgomFace: img_vecgomFace,
+  
+  // etc
+  img_Accessibility : img_Accessibility,
+  img_innovation : img_innovation,
+  img_Sustainability : img_Sustainability,
+  img_SocialImpact : img_SocialImpact,
 
   
 };
