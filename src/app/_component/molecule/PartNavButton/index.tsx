@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { Dispatch, SetStateAction } from 'react';
 import { NavButton, NavButtonText } from './style';
 
-const PartNavButton = ({ selected, setSelected }) => {
+interface PartNavButtonProps {
+  selected: string;
+  setSelected: Dispatch<SetStateAction<string>>;
+}
+
+const PartNavButton = ({ selected, setSelected }: PartNavButtonProps) => {
   const categories = ['전체', '프론트엔드', '백엔드'];
 
   return (
@@ -20,4 +25,3 @@ const PartNavButton = ({ selected, setSelected }) => {
 };
 
 export default PartNavButton;
-

@@ -1,7 +1,12 @@
 import Image from 'next/image';
 import {Card, Thumbnail, Title, ProfileRow, ProfileImageContainer, Name, Job } from './style';
+import {BlogType} from '../atomType'
 
-export default function BlogCard({ blog }) {
+interface BlogCardProps {
+  blog: BlogType;
+}
+
+export default function BlogCard({ blog }: BlogCardProps) {
   const handleCardClick = () => {
     window.open(blog.url, '_blank');
   };
