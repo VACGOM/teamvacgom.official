@@ -16,6 +16,7 @@ export const BlogBoxContainer = styled.div`
   background-size: contain;
   background-position: 300px 30px;
   background-repeat: no-repeat;
+  cursor:pointer;
 `;
 
 export const IntroTitle = styled.div`

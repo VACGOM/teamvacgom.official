@@ -16,6 +16,7 @@ export const LeftBoxContainer= styled.div`
   background-size: contain;
   background-position: 140px 0px;
   background-repeat: no-repeat;
+  cursor:pointer;
 `
 
 export const IntroTitle= styled.div`

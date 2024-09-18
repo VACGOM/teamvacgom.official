@@ -17,7 +17,7 @@ export default function Home() {
           <BlogBox />
           <div className={styles.bottomRightBoxes}>
             <TeamIntroBox />
-            <RecruitBox />
+          <RecruitBox />
           </div>
         </div>
       </div>
