@@ -6,6 +6,7 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  cursor: pointer;
 `;
 
 export const Thumbnail = styled.div`
