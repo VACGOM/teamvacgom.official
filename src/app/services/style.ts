@@ -2,8 +2,6 @@ import styled from '@emotion/styled';
 
 export const Main = styled.div`
   display: flex;
-  padding-left: 40px;
-  padding-right: 40px;
   padding-bottom: 40px;
   flex-direction: column;
   align-items: center;
@@ -11,15 +9,14 @@ export const Main = styled.div`
 
 export const IntroContainer = styled.div`
   border-radius: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
   height: 628px;
   background-image: url('/assets/image/img-intro-services.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  width: calc(100% - 80px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,7 +47,32 @@ export const SecondInfo = styled.div`
   align-items: center;
   gap: 80px;
   align-self: stretch;
+  background: var(--Primary-Light, #F4FAFE);
+
 `;
+
+export const ThirdInfo = styled.div`
+  display: flex;
+  height: 530px;
+  padding: 100px 142px;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+
+`;
+
+
+export const FourInfo = styled.div`
+  display: flex;
+  height: 530px;
+  padding: 100px 142px;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+  background: var(--Gray-Gray-50, #F9FAFB);
+
+`;
+
 
 export const TextContainer = styled.div`
   display: flex;

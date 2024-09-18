@@ -12,6 +12,8 @@ import {
   DescText,
   TextContainer,
   ImageContainer,
+  ThirdInfo,
+  FourInfo,
 } from './style';
 import Footer from '@/app/_component/molecule/Footer';
 import Image from 'next/image';
@@ -54,7 +56,7 @@ export default function Services() {
           />
         </ImageContainer>
       </SecondInfo>
-      <SecondInfo>
+      <ThirdInfo>
         <ImageContainer>
           <Image
             src={Images.map_img}
@@ -73,8 +75,8 @@ export default function Services() {
             근처 의료기관을 손쉽게 조회해 보세요.
           </DescText>
         </TextContainer>
-      </SecondInfo>
-      <SecondInfo>
+      </ThirdInfo>
+      <FourInfo>
         <TextContainer>
           <TitleText>공동 돌보미</TitleText>
           <DescText>
@@ -95,8 +97,8 @@ export default function Services() {
             height={350}
           />
         </ImageContainer>
-      </SecondInfo>
-      <SecondInfo>
+      </FourInfo>
+      <ThirdInfo>
         <ImageContainer>
           <Image
             src={Images.calendar_img}
@@ -116,7 +118,7 @@ export default function Services() {
             바쁜 일상 속에서도 중요한 일정을 놓치지 않도록 도와드려요.
           </DescText>
         </TextContainer>
-      </SecondInfo>
+      </ThirdInfo>
       <Footer />
     </Main>
   );

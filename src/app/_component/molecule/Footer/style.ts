@@ -10,6 +10,8 @@ export const Header = styled.header`
   justify-content: center;
   align-items: center;
   gap: 24px;
+  margin-left:-40px;
+  margin-right:-40px;
 `;
 
 export const Nav = styled.div`
