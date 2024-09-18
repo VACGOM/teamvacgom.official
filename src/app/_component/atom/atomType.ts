@@ -27,6 +27,15 @@ export interface ButtonType {
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
+export interface BlogType {
+  url: string;
+  thumbnail: string;
+  title: string;
+  profile: string;
+  editor: string;
+  job: string;
+}
+
 export interface ButtonStyleType {
   className?: string;
   customStyle?: SerializedStyles;
