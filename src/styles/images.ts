@@ -3,7 +3,9 @@
  * @type {string}
  */
 const BASE_URL = process.env.BASE_URL;
-interface ImagesType extends Record<string, string> {}
+import { StaticImageData } from 'next/image';
+
+interface ImagesType extends Record<string, StaticImageData | string> {}
 import kakao from '../../public/assets/ico/ico-kakao.svg';
 import google from '../../public/assets/ico/ic-google.svg';
 import vacgom from '../../public/assets/image/img-splash-vacgom.svg';
