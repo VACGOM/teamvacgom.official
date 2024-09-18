@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Images } from '@globalStyles';
-import styles from './Header.module.css';
 import { Header, Nav, NavItem } from './style';
  
 const MainHeader = () => {

@@ -2,25 +2,22 @@
 
 import styles from './page.module.css';
 import MainHeader from '@/app/_component/molecule/MainHeader';
+import BlogBox from "@/app/_component/atom/HomeButton/BlogBox";
+import LeftBox from "@/app/_component/atom/HomeButton/LeftBox";
+import RecruitBox from "@/app/_component/atom/HomeButton/RecruitBox";
+import TeamIntroBox from "@/app/_component/atom/HomeButton/TeamIntroBox";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <MainHeader />
       <div className={styles.content}>
-        <div className={styles.leftBox}>
-          <h1 className={styles.introTitle}>서비스 소개</h1>
-          <h2 className={styles.vacgomText}>WE ARE <br/> THE TEAM , <br/> VACGOM</h2>
-        </div>
+        <LeftBox />
         <div className={styles.rightArea}>
-          <div className={styles.topRightBox}> 
-            <h1 className={styles.introTitle}>블로그</h1>
-          <h2 className={styles.blogText}>View our blog</h2></div>
+          <BlogBox />
           <div className={styles.bottomRightBoxes}>
-            <div className={styles.bottomBoxLeft}><h1 className={styles.teamTitle}>팀 소개</h1>
-            <h2 className={styles.teamText}>About Us</h2></div>
-            <div className={styles.bottomBoxRight}><h1 className={styles.teamTitle}>팀원 모집</h1>
-            <h2 className={styles.teamText}>Recruits</h2></div>
+            <TeamIntroBox />
+            <RecruitBox />
           </div>
         </div>
       </div>
