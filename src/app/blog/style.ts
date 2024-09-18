@@ -25,3 +25,7 @@ export const PageTitleText = styled.div`
   font-style: normal;
   font-weight: 600;
 `;
+
+export const Gap = styled.div`
+  height: 100px;
+`;
