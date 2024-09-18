@@ -1,12 +1,12 @@
 import { LeftBoxContainer, IntroTitle, VacgomText } from './style';
-
-import { useRouter } from 'next/router';
+import {PATH} from '../../../../../routes/path'
+import { useRouter } from 'next/navigation';
 
 const LeftBoxSecond = () => {
   const router = useRouter();
 
   const handleNavigate = () => {
-    router.push('/services');
+    router.push(PATH.SERVICES);
   };
 
   return (
