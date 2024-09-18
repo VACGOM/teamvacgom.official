@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const Container = styled.main`
   gap: 80px;
+  padding: 40px;
   & > .visionSection {
     display: flex;
     padding: 140px 102px;
