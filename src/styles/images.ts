@@ -22,6 +22,8 @@ import radio_unselec_en from '../../public/assets/ico/ico-radio-unselected-enabl
 import Vacgom_Logo from  '../../public/assets/ico/ico-vacgom-logo.svg';
 import Home_Mockup from '../../public/assets/image/img-home-mockup.svg';
 import Left_box from '../../public/assets/image/ico-home-left.svg';
+import to_go from '../../public/assets/ico/ico-to-go.svg';
+import to_go_white from '../../public/assets/ico/ico-to-go-white.svg';
 // prettier-ignore
 export const Images: ImagesType = {
   // icon
@@ -44,4 +46,6 @@ export const Images: ImagesType = {
   Vacgom_Logo: Vacgom_Logo,
   Home_Mockup: Home_Mockup,
   Left_box:Left_box,
+  to_go:to_go,
+  to_go_white:to_go_white,
 };

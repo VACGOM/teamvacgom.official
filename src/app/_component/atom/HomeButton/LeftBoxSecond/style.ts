@@ -11,26 +11,30 @@ export const LeftBoxContainer= styled.div`
   gap: 20px;
   border-radius: 20px;
   border: 1px solid rgba(65, 150, 253, 0.2);
-  background: rgba(65, 187, 253, 0.1);
-  background-image: url("/assets/image/img-home-mockup.svg");
+  background: var(--Primary, #4196FD);
+  background-image: url("/assets/image/ico-home-left-on.svg");
   background-size: contain;
-  background-position: 200px 140px;
+  background-position: 140px 0px;
   background-repeat: no-repeat;
 `
 
 export const IntroTitle= styled.div`
-  color: #000;
-  font-family: Pretendard;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 32px;
+color: var(--Gray-White, #FFF);
+font-family: Pretendard;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+
 `
 
 
 export const VacgomText= styled.div`
-  color: #000;
-  font-family: Montserrat;
-  font-size: 56px;
-  font-weight: 600;
+color: var(--Gray-White, #FFF);
+font-family: Montserrat;
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 61.6px */
+letter-spacing: -1.68px;
 
 `
