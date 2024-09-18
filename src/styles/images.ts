@@ -46,29 +46,34 @@ import map_img from '../../public/assets/image/img-map.svg';
 import together_img from '../../public/assets/image/img-together.svg';
 import vaccine_img from '../../public/assets/image/img-info-vaccine.svg';
 
-
 // 팀원 이미지
-import img_heabin from "../../public/assets/image/변해빈.png";
-import img_minjeong from "../../public/assets/image/김민정.png";
-import img_hyungju from "../../public/assets/image/성형주.png";
-import img_yena from "../../public/assets/image/전예나.png";
-import img_sohyun from "../../public/assets/image/오소현.png";
-import img_jieun from "../../public/assets/image/김지은.png";
+import img_heabin from '../../public/assets/image/변해빈.png';
+import img_minjeong from '../../public/assets/image/김민정.png';
+import img_hyungju from '../../public/assets/image/성형주.png';
+import img_yena from '../../public/assets/image/전예나.png';
+import img_sohyun from '../../public/assets/image/오소현.png';
+import img_jieun from '../../public/assets/image/김지은.png';
 
 // 벡곰 이미지
-import img_introVecgom from "../../public/assets/image/introVecgom.svg";
-import img_vecgomFace from "../../public/assets/image/img_vecgomFace.svg";
+import img_introVecgom from '../../public/assets/image/introVecgom.svg';
+import img_vecgomFace from '../../public/assets/image/img_vecgomFace.svg';
+
+// 백곰 footprint 이미지
+import img_BEOTKKOTTHON from '../../public/assets/image/img_BEOTKKOTTHON.png';
+import img_JEJU from '../../public/assets/image/img_JEJU.png';
+import img_K8S from '../../public/assets/image/img_JEJU.png';
+import img_SIDEIMPACT from '../../public/assets/image/img_JEJU.png';
 
 // etc
-import img_Accessibility from "../../public/assets/image/img_accessibility.svg";
-import img_innovation from "../../public/assets/image/img_innovation.svg";
-import img_Sustainability from "../../public/assets/image/img_Sustainability.svg";
-import img_SocialImpact from "../../public/assets/image/img_SocialImpact.svg";
+import img_Accessibility from '../../public/assets/image/img_accessibility.svg';
+import img_innovation from '../../public/assets/image/img_innovation.svg';
+import img_Sustainability from '../../public/assets/image/img_Sustainability.svg';
+import img_SocialImpact from '../../public/assets/image/img_SocialImpact.svg';
 
 // 아이콘
-import icon_mail from "../../public/assets/ico/icon_mail.svg";
-import icon_blog from "../../public/assets/ico/icon_blog.svg";
-import icon_github from "../../public/assets/ico/icon_git.svg";
+import icon_mail from '../../public/assets/ico/icon_mail.svg';
+import icon_blog from '../../public/assets/ico/icon_blog.svg';
+import icon_github from '../../public/assets/ico/icon_git.svg';
 import icon_linkedin from '../../public/assets/ico/icon_linkedin.svg';
 
 // prettier-ignore
@@ -145,6 +150,12 @@ export const Images: ImagesType = {
   // 백곰 캐릭터 관련 이미지
   img_introVecgom: img_introVecgom,
   img_vecgomFace: img_vecgomFace,
+  
+  // 백곰 footprint 이미지
+  img_BEOTKKOTTHON : img_BEOTKKOTTHON,
+  img_JEJU: img_JEJU,
+  img_K8S: img_K8S,
+  img_SIDEIMPACT: img_SIDEIMPACT,
   
   // etc
   img_Accessibility : img_Accessibility,

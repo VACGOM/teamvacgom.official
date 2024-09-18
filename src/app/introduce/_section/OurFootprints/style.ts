@@ -24,6 +24,7 @@ export const Container = styled.main`
     }
     & > .item {
       display: flex;
+      flex-direction: column;
       gap: 80px;
       width: 996px;
     }

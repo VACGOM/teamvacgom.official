@@ -69,6 +69,7 @@ export const FootPrintCardWrap = styled.div`
     & > img {
       border-radius: 10px;
       overflow: hidden;
+      object-fit: cover;
     }
   }
 `;

@@ -9,7 +9,7 @@ type props = {
   name: string;
   date: string;
   subName: string;
-  award: string;
+  award?: string;
   moreLink: string;
 };
 
@@ -18,7 +18,7 @@ const FootPrintCard: React.FC<props> = ({
   name = '이름',
   date = '2024.03',
   subName = '[kakao X goorm]',
-  award = '수상',
+  award,
   moreLink = '/',
 }: props) => {
   return (
@@ -30,7 +30,7 @@ const FootPrintCard: React.FC<props> = ({
             <div className="name">{name}</div>
             <div className="subName">{subName}</div>
           </div>
-          <div className="award">{award}</div>
+          <div className="award">{award && award}</div>
         </div>
         <div className="bottom">
           <Link className="more" href={moreLink}>
