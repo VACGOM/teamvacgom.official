@@ -67,6 +67,13 @@ import img_JEJU from '../../public/assets/image/img_JEJU.png';
 import img_K8S from '../../public/assets/image/img_JEJU.png';
 import img_SIDEIMPACT from '../../public/assets/image/img_JEJU.png';
 
+// 팀원모집 이미지
+import img_recruitment from '../../public/assets/image/img_recruitment.svg';
+import img_recruit1 from '../../public/assets/image/img_recruit_1.svg';
+import img_recruit2 from '../../public/assets/image/img_recruit_2.svg';
+import img_recruit3 from '../../public/assets/image/img_recruit_3.svg';
+import img_recruit4 from '../../public/assets/image/img_recruit_4.svg';
+
 // etc
 import img_Accessibility from '../../public/assets/image/img_accessibility.svg';
 import img_innovation from '../../public/assets/image/img_innovation.svg';
@@ -160,6 +167,14 @@ export const Images: ImagesType = {
   img_JEJU: img_JEJU,
   img_K8S: img_K8S,
   img_SIDEIMPACT: img_SIDEIMPACT,
+  
+  // 팀원모집 이미지
+  img_recruitment : img_recruitment,
+  img_recruit1 : img_recruit1,
+  img_recruit2 : img_recruit2,
+  img_recruit3 : img_recruit3,
+  img_recruit4 : img_recruit4,
+  
   
   // etc
   img_Accessibility : img_Accessibility,
