@@ -40,6 +40,12 @@ import hyungju_profile from '../../public/assets/image/img-hyungju-profile.png';
 import yena_profile from '../../public/assets/image/img-yena-profile.png';
 import haebin_profile from '../../public/assets/image/img-haebin-profile.png';
 import jieun_profile from '../../public/assets/image/img-jieun-profile.png';
+import small_logo from '../../public/assets/ico/ico-vacgom-small-logo.svg';
+import calendar_img from '../../public/assets/image/img-calendar.svg';
+import map_img from '../../public/assets/image/img-map.svg';
+import together_img from '../../public/assets/image/img-together.svg';
+import vaccine_img from '../../public/assets/image/img-info-vaccine.svg';
+
 
 // prettier-ignore
 export const Images: ImagesType = {
@@ -57,6 +63,7 @@ export const Images: ImagesType = {
   radio_selec_en :radio_selec_en,
   radio_unselec_dis : radio_unselec_dis,
   radio_unselec_en :radio_unselec_en,
+  small_logo:small_logo,
   //image
   vacgom01: Vacgom01,
   vacgom : vacgom,
@@ -65,6 +72,10 @@ export const Images: ImagesType = {
   Left_box:Left_box,
   to_go:to_go,
   to_go_white:to_go_white,
+  vaccine_img :vaccine_img ,
+  calendar_img:calendar_img,
+  map_img:map_img,
+  together_img:together_img,
 
     //profile
     sohyun_profile: sohyun_profile,
