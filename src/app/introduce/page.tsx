@@ -8,12 +8,14 @@ import { Images } from "@/styles/images";
 import Image from "next/image";
 import OurVision from "@/app/introduce/_section/OurVision/OurVision";
 import OurValue from "@/app/introduce/_section/OurValue/OurValue";
+import OurFootprints from '@/app/introduce/_section/OurFootprints/OurFootprints';
 
 export default function Intoduce() {
   return (
     <Container>
       <OurVision />
       <OurValue />
+      <OurFootprints />
     </Container>
   );
 }
