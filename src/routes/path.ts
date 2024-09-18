@@ -2,5 +2,7 @@ export const PATH = {
   root: '/',
   HOME: '/home',
   BLOG: '/blog',
-  SERVICES : '/services',
+  SERVICES: '/services',
+  TEAM: '/team',
+  RECRUIT: '/recruit',
 };

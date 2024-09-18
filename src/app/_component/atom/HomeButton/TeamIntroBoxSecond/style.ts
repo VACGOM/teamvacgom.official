@@ -1,6 +1,10 @@
 import styled from '@emotion/styled';
 
-export const TeamBoxContainer = styled.div`
+interface TeamBoxContainerProps {
+  onClick?: () => void;
+}
+
+export const TeamBoxContainer = styled.div<TeamBoxContainerProps>`
   display: flex;
   min-width: 285px;
   height: 285px;
@@ -8,8 +12,8 @@ export const TeamBoxContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-border-radius: 20px;
-background: var(--Gray-Gray-600, #6B7684);
+  border-radius: 20px;
+  background: var(--Gray-Gray-600, #6b7684);
   position: relative;
 `;
 
@@ -20,22 +24,19 @@ export const ImageContainer = styled.div`
   padding: 20px;
 `;
 
-
-export const TeamTitle= styled.div`
+export const TeamTitle = styled.div`
   color: var(--Gray-White, #fff);
   font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
-`
+`;
 
-
-export const TeamText= styled.div`
+export const TeamText = styled.div`
   color: var(--Gray-White, #fff);
   font-family: Montserrat;
   font-size: 42px;
   font-style: normal;
   font-weight: 600;
-
-`
+`;

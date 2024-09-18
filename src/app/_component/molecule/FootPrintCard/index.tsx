@@ -5,7 +5,7 @@ import { Images } from '@/styles/images';
 import Link from 'next/link';
 
 type props = {
-  img: string;
+  img: any;
   name: string;
   date: string;
   subName: string;
