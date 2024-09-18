@@ -1,6 +1,6 @@
 .main {
   display: flex;
-
+  background: #FFF;
   flex-direction: column;
   align-items: center;
 }
@@ -28,3 +28,4 @@
   display: flex;
   gap: 20px;
 }
+

@@ -22,6 +22,7 @@ import radio_unselec_en from '../../public/assets/ico/ico-radio-unselected-enabl
 import Vacgom_Logo from '../../public/assets/ico/ico-vacgom-logo.svg';
 import Home_Mockup from '../../public/assets/image/img-home-mockup.svg';
 import Left_box from '../../public/assets/image/ico-home-left.svg';
+import Vacgom2 from '../../public/assets/image/img-home-vacgom-2.svg';
 import to_go from '../../public/assets/ico/ico-to-go.svg';
 import to_go_white from '../../public/assets/ico/ico-to-go-white.svg';
 
@@ -76,6 +77,7 @@ export const Images: ImagesType = {
   calendar_img:calendar_img,
   map_img:map_img,
   together_img:together_img,
+  Vacgom2:Vacgom2,
 
     //profile
     sohyun_profile: sohyun_profile,
