@@ -1,6 +1,118 @@
 .main {
   display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-bottom: 40px;
   flex-direction: column;
   align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.leftBox {
+  display: flex;
+  width: 100%;
+  min-width: 590px;
+  height: 628px;
+  padding: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(65, 150, 253, 0.2);
+  background: rgba(65, 187, 253, 0.1);
+}
+
+.introTitle {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.vacgomText {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.rightArea {
+  display: flex;
+  width: 590px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.topRightBox {
+  display: flex;
+  width: 100%;
+  min-width: 590px;
+  height: 323px;
+  padding: 36px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--Gray-Gray-100, #f2f4f6);
+}
+
+.blogText {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.bottomRightBoxes {
+  display: flex;
+  gap: 20px;
+}
+
+.bottomBoxLeft,
+.bottomBoxRight {
+  display: flex;
+  min-width: 285px;
+  height: 285px;
+  padding: 36px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 20px;
+}
+
+.teamTitle {
+  color: var(--Gray-White, #fff);
+
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.teamText {
+  color: var(--Gray-White, #fff);
+  font-family: Montserrat;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.bottomBoxLeft {
+  background: var(--Primary, #4196fd);
+}
+
+.bottomBoxRight {
+  background: var(--Secondary, #86d37f);
 }
