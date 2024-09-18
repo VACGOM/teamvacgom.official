@@ -14,9 +14,17 @@ export const BlogBoxContainer = styled.div`
   background: #e8f6ff;
   background-image: url('/assets/ico/ico-right-top-blog.svg');
   background-size: contain;
-  background-position: 300px 30px;
+  background-position: 300px 50px;
   background-repeat: no-repeat;
   cursor:pointer;
+   position: relative;
+`;
+
+export const ImageContainer = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
 `;
 
 export const IntroTitle = styled.div`
