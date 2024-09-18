@@ -1,6 +1,13 @@
 import Image from 'next/image';
 import {Card, Thumbnail, Title, ProfileRow, ProfileImageContainer, Name, Job } from './style';
-
+interface Blog {
+  url: string;
+  thumbnail: string;
+  title: string;
+  profile: string;
+  editor: string;
+  job: string;
+}
 export default function BlogCard({ blog }) {
   const handleCardClick = () => {
     window.open(blog.url, '_blank');
