@@ -19,6 +19,7 @@ import radio_selec_dis from '../../public/assets/ico/ico-radio-selected-disabled
 import radio_selec_en from '../../public/assets/ico/ico-radio-selected-enabled.svg';
 import radio_unselec_dis from '../../public/assets/ico/ico-radio-unselected-disabled.svg';
 import radio_unselec_en from '../../public/assets/ico/ico-radio-unselected-enabled.svg';
+import Vacgom_Logo from  '../../public/assets/ico/ico-vacgom-logo.svg';
 
 // prettier-ignore
 export const Images: ImagesType = {
@@ -39,4 +40,5 @@ export const Images: ImagesType = {
   //image
   vacgom01: Vacgom01,
   vacgom : vacgom,
+  Vacgom_Logo: Vacgom_Logo,
 };
