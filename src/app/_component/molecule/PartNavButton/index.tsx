@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { NavButton, NavButtonText } from './style';
 
-const PartNavButton = () => {
-  const [selected, setSelected] = useState('전체');
-
+const PartNavButton = ({ selected, setSelected }) => {
   const categories = ['전체', '프론트엔드', '백엔드'];
 
   return (
@@ -22,3 +20,4 @@ const PartNavButton = () => {
 };
 
 export default PartNavButton;
+

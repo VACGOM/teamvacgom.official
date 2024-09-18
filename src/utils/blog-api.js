@@ -4,7 +4,7 @@ import Image from 'next/image';
 export const BlogApi = [
   {
     id: 1,
-    part:'backend',
+    part:'백엔드',
     thumbnail: Images.hyungju_1,
     title: '🏆 저 .. [kakao x goorm] 구름톤 유니브 벚꽃톤에서 최우수상 받았어요 !!!',
     profile: Images.hyungju_profile,
@@ -14,7 +14,7 @@ export const BlogApi = [
   },
   {
     id: 2,
-    part:'frontend',
+    part:'프론트엔드',
     thumbnail: Images.sohyun_1,
     title: 'Next.js 14로 네이버 지도 API를 이용해 지도 기능 개발하기',
     profile: Images.sohyun_profile,
@@ -24,7 +24,7 @@ export const BlogApi = [
   },
   {
     id: 3,
-    part:'frontend',
+    part:'프론트엔드',
     thumbnail: Images.sohyun_2,
     title: 'Next.js 14로 네이버 지도 API를 이용해 지도 기능 개발하기 (2)',
     profile: Images.sohyun_profile,
@@ -34,7 +34,7 @@ export const BlogApi = [
   },
   {
     id: 4,
-    part:'frontend',
+    part:'프론트엔드',
     thumbnail: Images.sohyun_3,
     title: '[FE] 여러 조건들이 맞물린 복잡한 필터링 기능 깔끔하게 구현하기',
     profile: Images.sohyun_profile,
@@ -44,7 +44,7 @@ export const BlogApi = [
   },
   {
     id: 5,
-    part:'frontend',
+    part:'프론트엔드',
     thumbnail: Images.sohyun_4,
     title: '[Npm 패키지 개발] Vacgom 자체 디자인 시스템을 Npm 패키지 오픈소스로 개발하기 (1)',
     profile: Images.sohyun_profile,
@@ -54,7 +54,7 @@ export const BlogApi = [
   },
   {
     id: 6,
-    part:'frontend',
+    part:'프론트엔드',
     thumbnail: Images.sohyun_5,
     title: '웹 크롤러로 전국 병원 목록 데이터 가져와 저장하기',
     profile: Images.sohyun_profile,
@@ -64,7 +64,7 @@ export const BlogApi = [
   },
   {
     id: 7,
-    part:'backend',
+    part:'백엔드',
     thumbnail: Images.haebin_1,
     title: '[kakao X goorm] 구름톤 Univ In Jeju 우수상 후기',
     profile: Images.haebin_profile,
@@ -74,7 +74,7 @@ export const BlogApi = [
   },
   {
     id: 8,
-    part:'frontend',
+    part:'백엔드',
     thumbnail: Images.hyungju_1,
     title: '[kakao x goorm] 벚꽃톤 최우수상 [백곰] 회고',
     profile: Images.haebin_profile,
