@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const Card = styled.div`
   display: flex;
-  max-width: 285px;
+  min-width: 285px;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
