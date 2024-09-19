@@ -79,36 +79,37 @@ export default function RecruitContent() {
             <div className="item">
               <div className="title">백곰이 사용하는 기술</div>
               <div className="con">
-                Java/Kotlin(BE), TypeScript(스크래핑 모듈) <br />
-                Spring Framework <br />
-                MySQL, MongoDB, Redis, Spring JPA, QueryDSL <br />
-                k8s Cluster, AWS ECS, AWS Lambda, Kakao Cloud (k8s Cluster),
-                Github Actions
+                · Java/Kotlin(BE), TypeScript(스크래핑 모듈) <br />
+                · Spring Framework <br />
+                · MySQL, MongoDB, Redis, Spring JPA, QueryDSL <br />· k8s
+                Cluster, AWS ECS, AWS Lambda, Kakao Cloud (k8s Cluster), Github
+                Actions
               </div>
             </div>
             <div className="item">
               <div className="title">백곰의 마인드셋</div>
               <div className="con">
                 1. 성장 마인드 <br />
-                프로젝트 아이템에 대한 애착과 관심을 가지고, 이를 발전시키는
-                과정에서 즐거움을 느끼는 분. 기술적 진보를 위해 끊임없이
-                고민하고 더 나은 설계와 솔루션을 제안할 수 있는 분.
+                · 프로젝트 아이템에 대한 애착과 관심을 가지고, 이를 발전시키는
+                과정에서 즐거움을 느끼는 분.
+                <br /> · 기술적 진보를 위해 끊임없이 고민하고 더 나은 설계와
+                솔루션을 제안할 수 있는 분.
                 <br />
                 2. 책임감과 문제 해결 능력 <br />
-                주어진 문제를 정확히 파악하고 능동적으로 해결책을 찾는 태도.
+                · 주어진 문제를 정확히 파악하고 능동적으로 해결책을 찾는 태도. ·
                 긴밀한 협업 속에서 팀과 소통하며, 문제 상황을 해결하고자 하는
                 책임감 있는 분.
                 <br />
-                3. 혁신을 두려워하지 않는 자세 <br />
-                특정 기술이나 언어, 프레임워크의 벤더에 종속되지 않고 기술적
-                도전과 실험을 즐기는 분.
+                3. 혁신을 두려워하지 않는 자세 <br />· 특정 기술이나 언어,
+                프레임워크의 벤더에 종속되지 않고 기술적 도전과 실험을 즐기는
+                분.
               </div>
             </div>
             <div className="item">
               <div className="title">우대사항</div>
               <div className="con">
-                k8s 클러스터 환경의 프로젝트 경험이 있다면 더욱 좋아요. <br />
-                앱스토어/플레이스토어/웹 등 실제 배포된 서비스에서 엔드유저와
+                · k8s 클러스터 환경의 프로젝트 경험이 있다면 더욱 좋아요. <br />
+                · 앱스토어/플레이스토어/웹 등 실제 배포된 서비스에서 엔드유저와
                 상호작용 과정을 거쳐본 경험이 있다면 더욱 좋아요.
               </div>
             </div>
