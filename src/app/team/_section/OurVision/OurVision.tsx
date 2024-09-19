@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import * as React from "react";
+import * as React from 'react';
 
-import { Container } from "./style";
-import { Images } from "@/styles/images";
-import Image from "next/image";
+import { Container } from './style';
+import { Images } from '@/styles/images';
+import Image from 'next/image';
 
 export default function OurVision() {
   return (
@@ -15,8 +15,8 @@ export default function OurVision() {
           <div className="title"> Our Vision</div>
           <div className="text">
             <div className="tap">
-              '기술 발전의 속도와 정보의 격차를 줄이는 것', 백곰이 생각하는 가장
-              중요한 가치입니다.
+              &apos;기술 발전의 속도와 정보의 격차를 줄이는 것&apos;, 백곰이
+              생각하는 가장 중요한 가치입니다.
             </div>
             <div className="tap">
               기술의 빠른 진보를 통해 우리는 많은 이점을 누릴 수 있게 되었지만
