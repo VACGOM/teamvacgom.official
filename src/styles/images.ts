@@ -44,10 +44,10 @@ import yena_profile from '../../public/assets/image/img-yena-profile.png';
 import haebin_profile from '../../public/assets/image/img-haebin-profile.png';
 import jieun_profile from '../../public/assets/image/img-jieun-profile.png';
 import small_logo from '../../public/assets/ico/ico-vacgom-small-logo.svg';
-import calendar_img from '../../public/assets/image/img-calendar.svg';
-import map_img from '../../public/assets/image/img-map.svg';
-import together_img from '../../public/assets/image/img-together.svg';
-import vaccine_img from '../../public/assets/image/img-info-vaccine.svg';
+import calendar_img from '../../public/assets/image/img-calen.png';
+import map_img from '../../public/assets/image/img-maps.png';
+import together_img from '../../public/assets/image/img-togethers.png';
+import vaccine_img from '../../public/assets/image/img-vaccine.png';
 
 import plan from '../../public/assets/ico/ico_plan.svg';
 import Design from '../../public/assets/ico/ico_Design.svg';

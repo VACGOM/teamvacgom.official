@@ -12,7 +12,7 @@ export const IntroContainer = styled.div`
   margin-left: 40px;
   margin-right: 40px;
   height: 628px;
-  background-image: url('/assets/image/img-intro-services.svg');
+  background-image: url('/assets/image/img-intro-services-new.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

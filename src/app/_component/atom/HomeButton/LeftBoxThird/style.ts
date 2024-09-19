@@ -12,7 +12,7 @@ export const LeftBoxContainer = styled.div`
   border-radius: 20px;
   background: var(--Gray-Gray-100, #f2f4f6);
 
-  background-image: url('/assets/image/ico-home-left-on.svg');
+  background-image: url('/assets/image/img-home-left-now.png');
   background-size: contain;
   background-position: 140px 0px;
   background-repeat: no-repeat;
