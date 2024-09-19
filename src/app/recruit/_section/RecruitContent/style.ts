@@ -87,7 +87,8 @@ export const Container = styled.main`
             line-height: 160%; /* 25.6px */
           }
         }
-        & > .button {
+        & > a > .button {
+          cursor: pointer;
           display: flex;
           padding: 14px 50px;
           justify-content: center;

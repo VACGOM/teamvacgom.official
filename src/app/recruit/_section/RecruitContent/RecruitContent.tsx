@@ -113,7 +113,13 @@ export default function RecruitContent() {
                 상호작용 과정을 거쳐본 경험이 있다면 더욱 좋아요.
               </div>
             </div>
-            <button className={'button'}>지원하기</button>
+            <a
+              href={
+                'https://docs.google.com/forms/d/1xrQF95D6yMcMsJl6OGndkpGjPQRtKs3txFLr8OGm1ic/edit?usp=forms_home&ths=true'
+              }
+            >
+              <button className={'button'}>지원하기</button>
+            </a>
           </div>
         </div>
       </div>
