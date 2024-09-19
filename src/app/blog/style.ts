@@ -20,7 +20,7 @@ export const PageTitle = styled.div`
 
 export const PageTitleText = styled.div`
   color: var(--Gray-Gray-900, #191f28);
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 600;

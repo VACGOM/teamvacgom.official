@@ -31,7 +31,7 @@ font-weight: 400;
 
 export const VacgomText= styled.div`
 color: var(--Gray-White, #FFF);
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 56px;
 font-style: normal;
 font-weight: 600;

@@ -25,7 +25,7 @@ export const IntroTitle= styled.div`
 
 export const BlogText= styled.div`
   color: #000;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 42px;
   font-style: normal;
   font-weight: 600;

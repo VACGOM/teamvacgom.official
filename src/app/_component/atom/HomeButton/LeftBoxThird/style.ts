@@ -29,7 +29,7 @@ export const IntroTitle = styled.div`
 
 export const VacgomText = styled.div`
   color: var(--Gray-Gray-700, #4e5968);
-  font-family: Montserrat;
+  font-family:'Montserrat', sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 600;

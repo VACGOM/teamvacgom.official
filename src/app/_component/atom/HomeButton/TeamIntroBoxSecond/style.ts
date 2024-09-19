@@ -35,7 +35,7 @@ export const TeamTitle = styled.div`
 
 export const TeamText = styled.div`
   color: var(--Gray-White, #fff);
-  font-family: Montserrat;
+  font-family:'Montserrat', sans-serif;
   font-size: 42px;
   font-style: normal;
   font-weight: 600;
