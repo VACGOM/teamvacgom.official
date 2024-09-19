@@ -49,6 +49,11 @@ import map_img from '../../public/assets/image/img-map.svg';
 import together_img from '../../public/assets/image/img-together.svg';
 import vaccine_img from '../../public/assets/image/img-info-vaccine.svg';
 
+import plan from '../../public/assets/ico/ico_plan.svg';
+import Design from '../../public/assets/ico/ico_Design.svg';
+import Frontend from '../../public/assets/ico/ico_Frontend.svg';
+import Backend from '../../public/assets/ico/ico_Backend.svg';
+
 // 팀원 이미지
 import img_heabin from '../../public/assets/image/변해빈.png';
 import img_minjeong from '../../public/assets/image/김민정.png';
@@ -109,6 +114,11 @@ export const Images: ImagesType = {
   icon_linkedin: icon_linkedin,
   icon_blog: icon_blog,
   icon_github: icon_github,
+  
+  plan: plan,
+  Design: Design,
+  Frontend: Frontend,
+  Backend: Backend,
   
   
   
