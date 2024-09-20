@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const TeamCardWrap = styled.div`
   width: 317px;
@@ -47,9 +47,10 @@ export const TeamCardWrap = styled.div`
     }
     & > .linkWrap {
       display: flex;
-      //gap: auto;
-      justify-content: space-between;
+      gap: 10px;
+      justify-content: flex-start;
       margin-top: 14px;
+
       & > .link {
         display: flex;
         width: 56px;

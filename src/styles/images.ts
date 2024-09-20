@@ -90,6 +90,8 @@ import icon_mail from '../../public/assets/ico/icon_mail.svg';
 import icon_blog from '../../public/assets/ico/icon_blog.svg';
 import icon_github from '../../public/assets/ico/icon_git.svg';
 import icon_linkedin from '../../public/assets/ico/icon_linkedin.svg';
+import icon_notefolio from '../../public/assets/ico/ico_notefolio.svg';
+import icon_insta from '../../public/assets/ico/ico_insta.svg';
 
 // prettier-ignore
 export const Images: ImagesType = {
@@ -114,6 +116,8 @@ export const Images: ImagesType = {
   icon_linkedin: icon_linkedin,
   icon_blog: icon_blog,
   icon_github: icon_github,
+  icon_notefolio: icon_notefolio,
+  icon_insta: icon_insta,
   
   plan: plan,
   Design: Design,
