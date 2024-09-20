@@ -119,7 +119,7 @@ export default function RecruitContent() {
               <div className="title">Road To Vacgom</div>
               <div className="con">
               1. 합류 여정 <br />
-              &nbsp;· 서류 접수 > 인터뷰 > 최종 합격 및 합류<br />
+              &nbsp;· {'서류 접수 > 인터뷰 > 최종 합격 및 합류'}<br />
               2. 지원서 제출 방법 <br />
               &nbsp;· 기간: 2024.09.21(토) ~ 2024.09.28(토) 23:59까지 Google Forms으로 제출<br />
               3. 면접 <br />
