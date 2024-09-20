@@ -5,12 +5,12 @@ export const BlogApi = [
   {
     id: 1,
     part:'백엔드',
-    thumbnail: Images.hyungju_1,
-    title: '🏆 저 .. [kakao x goorm] 구름톤 유니브 벚꽃톤에서 최우수상 받았어요 !!!',
-    profile: Images.hyungju_profile,
-    editor: "형주",
-    job:"백엔드",
-    url:"https://www.linkedin.com/posts/hyungjusung_%EC%A0%80-kakao-x-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-%EC%9C%A0%EB%8B%88%EB%B8%8C-%EB%B2%9A%EA%BD%83%ED%86%A4%EC%97%90%EC%84%9C-%EC%B5%9C%EC%9A%B0%EC%88%98%EC%83%81-activity-7179423270629175296-5S3K?utm_source=share&utm_medium=member_desktop"
+    thumbnail: Images.haebin_1,
+    title: '[kakao X goorm] 구름톤 Univ In Jeju 우수상 후기',
+    profile: Images.haebin_profile,
+    editor: "해빈",
+    job: "백엔드",
+    url:"https://velog.io/@h-beeen/kakao-X-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-Univ-In-Jeju-%EC%9A%B0%EC%88%98%EC%83%81-%ED%9B%84%EA%B8%B0"
   },
   {
     id: 2,
@@ -65,12 +65,12 @@ export const BlogApi = [
   {
     id: 7,
     part:'백엔드',
-    thumbnail: Images.haebin_1,
-    title: '[kakao X goorm] 구름톤 Univ In Jeju 우수상 후기',
-    profile: Images.haebin_profile,
-    editor: "해빈",
-    job: "백엔드",
-    url:"https://velog.io/@h-beeen/kakao-X-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-Univ-In-Jeju-%EC%9A%B0%EC%88%98%EC%83%81-%ED%9B%84%EA%B8%B0"
+    thumbnail: Images.hyungju_1,
+    title: '🏆 저 .. [kakao x goorm] 구름톤 유니브 벚꽃톤에서 최우수상 받았어요 !!!',
+    profile: Images.hyungju_profile,
+    editor: "형주",
+    job:"백엔드",
+    url:"https://www.linkedin.com/posts/hyungjusung_%EC%A0%80-kakao-x-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-%EC%9C%A0%EB%8B%88%EB%B8%8C-%EB%B2%9A%EA%BD%83%ED%86%A4%EC%97%90%EC%84%9C-%EC%B5%9C%EC%9A%B0%EC%88%98%EC%83%81-activity-7179423270629175296-5S3K?utm_source=share&utm_medium=member_desktop"
   },
   {
     id: 8,
