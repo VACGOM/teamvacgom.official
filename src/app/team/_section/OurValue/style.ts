@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.main`
-  height: 1054px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,9 +9,12 @@ export const Container = styled.main`
   gap: 80px;
   background: #f2f4f6;
   width: 100%;
+  padding: 140px 20px;
   & > .valueSection {
-    width: 996px;
-    height: 774px;
+    width: 100%;
+    max-width: 996px;
+    height: 100%;
+    //max-height: 774px;
     & > .title {
       color: #191f28;
       font-family: Pretendard;
@@ -27,10 +30,15 @@ export const Container = styled.main`
       gap: 20px;
       @media (max-width: 1000px) {
         & > div {
-          width: 90vw;
+          width: 92vw;
         }
         grid-template-columns: 1fr;
       }
     }
   }
+  @media (max-width: 1000px) {
+    padding: 100px 30px;
+      & > .valueSection {
+
+      }
 `;

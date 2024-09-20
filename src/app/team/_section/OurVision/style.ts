@@ -11,7 +11,7 @@ export const Container = styled.main`
     padding: 140px 102px;
 
     & > .textWrap {
-      height: 437px;
+      height: 100%;
       display: flex;
       //width: 100%;
       flex-direction: column;
@@ -41,4 +41,11 @@ export const Container = styled.main`
       }
     }
   }
+
+  @media (max-width: 991px) {
+    padding: 10px;
+      & > .visionSection {
+          padding: 100px 30px;
+
+      }
 `;

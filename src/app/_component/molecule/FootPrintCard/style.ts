@@ -7,7 +7,7 @@ export const ImageContainer = styled.div<{ hasWhiteBg: boolean }>`
   background-color: ${({ hasWhiteBg }) =>
     hasWhiteBg ? '#fff' : 'transparent'}; /* 조건부로 흰색 배경 적용 */
 
-  /* Image를 잘 맞추기 위한 추가 스타일 */
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,8 @@ export const FootPrintCardWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-self: stretch;
-  width: 100%;
+  flex-wrap: wrap;
+  //width: 100%;
 
   & > .left {
     margin: 20px 0;
@@ -83,14 +84,17 @@ export const FootPrintCardWrap = styled.div`
       }
     }
   }
-  & > .right {
+  & > .right > div {
     @media (max-width: 991px) {
-      width: 20px;
+      width: 100%;
     }
     & > img {
       border-radius: 10px;
       overflow: hidden;
       object-fit: cover;
+      @media (max-width: 991px) {
+        width: 100%;
+      }
     }
   }
 `;

@@ -47,7 +47,10 @@ export const Container = styled.main`
     //gap: 30px;
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    min-width: 100%;
   }
+    @media (max-width: 1000px) {
+        .swiper {
+            width: 100%;
+
+        }
 `;

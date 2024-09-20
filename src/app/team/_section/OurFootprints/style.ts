@@ -26,7 +26,14 @@ export const Container = styled.main`
       display: flex;
       flex-direction: column;
       gap: 80px;
-      width: 996px;
+      //width: 996px;
     }
+  }
+  @media (max-width: 1000px) {
+    & > .section {
+      padding: 100px 20px;
+        & > .item {
+
+        }
   }
 `;
