@@ -25,7 +25,7 @@ const FootPrintCard: React.FC<props> = ({
     <FootPrintCardWrap>
       <div className="left">
         <div className="top">
-          <div className="date">{date}</div>
+          <div className="date" >{date}</div>
           <div className="namediv">
             <div className="name">{name}</div>
             <div className="subName">{subName}</div>

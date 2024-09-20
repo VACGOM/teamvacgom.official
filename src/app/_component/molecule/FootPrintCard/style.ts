@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 export const FootPrintCardWrap = styled.div`
   display: flex;
   justify-content: space-between;
-  //align-items: flex-start;
   align-self: stretch;
   width: 100%;
 
@@ -16,7 +15,11 @@ export const FootPrintCardWrap = styled.div`
       & > .date {
         color: rgba(107, 118, 132, 1);
         align-self: start;
-        font-family:'Montserrat', sans-serif;,
+        font-family: 'Montserrat', sans-serif;
+        font-display: swap;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
       }
       & > .namediv {
         & > .name {
@@ -24,6 +27,7 @@ export const FootPrintCardWrap = styled.div`
           font-size: 28px;
           font-weight: 700;
           line-height: 1.3;
+          font-family: 'Pretendard', sans-serif;
         }
         & > .subName {
           color: rgba(209, 214, 219, 1);
@@ -31,6 +35,7 @@ export const FootPrintCardWrap = styled.div`
           font-weight: 400;
           line-height: 1;
           margin-top: 6px;
+          font-family: 'Pretendard', sans-serif;
         }
       }
       & > .award {
@@ -38,6 +43,7 @@ export const FootPrintCardWrap = styled.div`
         font-size: 28px;
         font-weight: 500;
         line-height: 1.3;
+        font-family: 'Pretendard', sans-serif;
       }
     }
     & > .bottom {
@@ -51,9 +57,10 @@ export const FootPrintCardWrap = styled.div`
         color: rgba(229, 232, 235, 1);
         white-space: nowrap;
         padding: 14px 20px;
-        font:
-          500 20px/1.3 Pretendard,
-          sans-serif;
+        font-family: 'Pretendard', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.3;
         border: 1px solid rgba(78, 89, 104, 1);
         background-color: unset;
         @media (max-width: 991px) {

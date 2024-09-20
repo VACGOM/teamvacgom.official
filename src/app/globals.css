@@ -61,6 +61,26 @@
   src: local('Pretendard Thin'), url('/fonts/Pretendard-Thin.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url('/fonts/Montserrat-Medium.ttf'
+  ); 
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('/fonts/Montserrat-Bold.ttf'
+  );
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('/fonts/Montserrat-Light.ttf'
+  );
+  font-weight: lighter;
+}
+
 
 :root {
   --max-width: 1100px;
