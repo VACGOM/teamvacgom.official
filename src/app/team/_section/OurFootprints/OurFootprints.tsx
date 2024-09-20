@@ -29,7 +29,7 @@ export default function OurFootprints() {
           />
           <FootPrintCard
             date={'2024.08'}
-            name={'k8s 서버 환경'}
+            name={'kakaocloud k8s 서버환경 구축'}
             subName={'[kakao Cloud]'}
             img={Images.img_K8S}
           />{' '}

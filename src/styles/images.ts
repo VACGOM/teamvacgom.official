@@ -70,7 +70,7 @@ import img_vecgomFace from '../../public/assets/image/img_vecgomFace.svg';
 import img_BEOTKKOTTHON from '../../public/assets/image/img_BEOTKKOTTHON.png';
 import img_JEJU from '../../public/assets/image/img_JEJU.png';
 import img_K8S from '../../public/assets/image/img-k8s.png';
-import img_SIDEIMPACT from '../../public/assets/image/img-impact.png';
+import img_SIDEIMPACT from '../../public/assets/image/img-brian-impact.png';
 
 // 팀원모집 이미지
 import img_recruitment from '../../public/assets/image/img_recruitment.svg';
