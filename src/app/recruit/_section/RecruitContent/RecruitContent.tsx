@@ -118,16 +118,23 @@ export default function RecruitContent() {
             <div className="item">
               <div className="title">Road To Vacgom</div>
               <div className="con">
-              1. 합류 여정 <br />
-              &nbsp;· {'서류 접수 > 인터뷰 > 최종 합격 및 합류'}<br />
-              2. 지원서 제출 방법 <br />
-              &nbsp;· 기간: 2024.09.21(토) ~ 2024.09.28(토) 23:59까지 Google Forms으로 제출<br />
-              3. 면접 <br />
-              &nbsp;· 자세한 일정과 방식은 서류 합격자에게 따로 공지할 예정입니다.<br />
-              4. <b>Q&A</b> <br />
-              &nbsp;· 궁금한 사항이 있다면 언제든지 <a href="mailto:joker7011@naver.com">joker7011@naver.com</a>로 문의주세요.<br />
-              &nbsp;&nbsp;→ 이메일 : <a href="mailto:dev.beeen@kakao.com"><strong>dev.beeen@kakao.com</strong></a>
-            </div>
+                1. 합류 여정 <br />
+                &nbsp;· {'서류 접수 > 인터뷰 > 최종 합격 및 합류'}
+                <br />
+                2. 지원서 제출 방법 <br />
+                &nbsp;· 기간: 2024.09.21(토) ~ 2024.09.28(토) 23:59까지 Google
+                Forms으로 제출
+                <br />
+                3. 면접 <br />
+                &nbsp;· 자세한 일정과 방식은 서류 합격자에게 따로 공지할
+                예정이에요.
+                <br />
+                4. Q&A <br />
+                &nbsp;· 궁금한 사항이 있다면 언제든지 편하게{' '}
+                <a href="mailto:dev.beeen@kakao.com">dev.beeen@kakao.com</a>로
+                문의주세요.
+                <br />
+              </div>
             </div>
             <a
               href={
