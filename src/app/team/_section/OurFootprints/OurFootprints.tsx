@@ -16,14 +16,14 @@ export default function OurFootprints() {
           <FootPrintCard
             date={'2024.03'}
             name={'2024 벚꽃톤'}
-            subName={'[kakao x goorm]'}
+            subName={'[kakao X goorm]'}
             award={'최우수상'}
             img={Images.img_BEOTKKOTTHON}
           />
           <FootPrintCard
             date={'2024.08'}
             name={'9oormthon Univ In Jeju'}
-            subName={'[kakao x goorm'}
+            subName={'[kakao X goorm]'}
             award={'우수상'}
             img={Images.img_JEJU}
           />
