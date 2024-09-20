@@ -8,12 +8,14 @@ import { Header, Nav, NavItem } from './style';
 const Footer = () => {
   return (
     <Header>
+    <Link href="/">
       <Image
         src={Images.Vacgom_Logo}
         alt={'홈페이지 로고'}
         width={84}
         height={24}
       />
+      </Link>
       <Nav>
         <NavItem>
           <Link href="/">홈</Link>

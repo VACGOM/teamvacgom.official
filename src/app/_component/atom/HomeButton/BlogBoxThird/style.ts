@@ -14,7 +14,7 @@ export const BlogBoxContainer = styled.div`
 background: var(--Primary, #4196FD);
   background-image: url('/assets/image/img-home-vacgom-2.svg');
   background-size: contain;
-  background-position: 80px 40px;
+  background-position: 80px 0px;
   background-repeat: no-repeat;
   cursor:pointer;
   position: relative;

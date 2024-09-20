@@ -2,7 +2,6 @@ import { BlogBoxContainer, IntroTitle, BlogText ,ImageContainer} from './style';
 import { PATH } from '../../../../../routes/path';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
-
 import { Images } from '@globalStyles';
 
 const BlogBoxThird = () => {
