@@ -1,5 +1,18 @@
 import styled from '@emotion/styled';
 
+export const ImageContainer = styled.div<{ hasWhiteBg: boolean }>`
+  position: relative;
+  width: 600px;
+  height: 380px;
+  background-color: ${({ hasWhiteBg }) =>
+    hasWhiteBg ? '#fff' : 'transparent'}; /* 조건부로 흰색 배경 적용 */
+
+  /* Image를 잘 맞추기 위한 추가 스타일 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const FootPrintCardWrap = styled.div`
   display: flex;
   justify-content: space-between;

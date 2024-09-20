@@ -1,5 +1,5 @@
 import React from 'react';
-import { FootPrintCardWrap } from './style';
+import { FootPrintCardWrap, ImageContainer } from './style';
 import Image from 'next/image';
 import { Images } from '@/styles/images';
 import Link from 'next/link';
@@ -25,7 +25,7 @@ const FootPrintCard: React.FC<props> = ({
     <FootPrintCardWrap>
       <div className="left">
         <div className="top">
-          <div className="date" >{date}</div>
+          <div className="date">{date}</div>
           <div className="namediv">
             <div className="name">{name}</div>
             <div className="subName">{subName}</div>
@@ -39,7 +39,9 @@ const FootPrintCard: React.FC<props> = ({
         </div> */}
       </div>
       <div className="right">
-        <Image src={img} alt="img" width={600} height={380} />
+        <ImageContainer hasWhiteBg={subName === '[브라이언 임팩트]'}>
+          <Image src={img} alt="img" width={600} height={380} />
+        </ImageContainer>
       </div>
     </FootPrintCardWrap>
   );
