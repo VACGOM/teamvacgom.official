@@ -16,9 +16,7 @@ export const FootPrintCardWrap = styled.div`
       & > .date {
         color: rgba(107, 118, 132, 1);
         align-self: start;
-        font:
-          400 24px/1.3 Montserrat,
-          sans-serif;
+        font-family:'Montserrat', sans-serif;,
       }
       & > .namediv {
         & > .name {
