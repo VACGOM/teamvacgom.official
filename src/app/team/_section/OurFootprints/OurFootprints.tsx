@@ -18,14 +18,14 @@ export default function OurFootprints() {
             name={'2024 벚꽃톤'}
             subName={'[kakao X goorm]'}
             award={'최우수상'}
-            img={Images.img_BEOTKKOTTHON}
+            img={Images.hyungju_1}
           />
           <FootPrintCard
             date={'2024.08'}
             name={'9oormthon Univ In Jeju'}
             subName={'[kakao X goorm]'}
             award={'우수상'}
-            img={Images.img_JEJU}
+            img={Images.haebin_1}
           />
           <FootPrintCard
             date={'2024.08'}
