@@ -32,11 +32,11 @@ const FootPrintCard: React.FC<props> = ({
           </div>
           <div className="award">{award && award}</div>
         </div>
-        <div className="bottom">
+        {/* <div className="bottom">
           <Link className="more" href={moreLink}>
             More
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="right">
         <Image src={img} alt="img" width={600} height={380} />
