@@ -29,4 +29,16 @@ export const Container = styled.main`
   & > .item > * {
     flex-shrink: 0; /* 요소 크기가 줄어들지 않도록 */
   }
+
+  .swiper-pagination {
+    display: none; /* 슬라이드 바 숨기기 */
+  }
+  .swiper-wrapper {
+    transition-timing-function: linear; /* 부드럽게 직선으로 움직이게 설정 */
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
 `;
