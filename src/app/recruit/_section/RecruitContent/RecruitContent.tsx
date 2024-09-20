@@ -16,27 +16,29 @@ export default function RecruitContent() {
     category: string,
   ) => {
     e.preventDefault();
-    setCategory(category);
+    if (['Backend'].includes(category)) {
+      setCategory(category);
+    }
   };
 
   return (
     <Container>
       <div className="category">
         <a
-          className={`item ${category === 'plan' ? 'active' : ''}`}
+          className={`item ${category === 'plan' ? 'active' : 'disabled'}`}
           onClick={(e) => handleClick(e, 'plan')}
         >
           <Image src={Images.plan} alt={'plan'} /> Plan
         </a>
         <a
-          className={`item ${category === 'Design' ? 'active' : ''}`}
+          className={`item ${category === 'Design' ? 'active' : 'disabled'}`}
           onClick={(e) => handleClick(e, 'Design')}
         >
           <Image src={Images.Design} alt={'Design'} />
           Design
         </a>
         <a
-          className={`item ${category === 'Frontend' ? 'active' : ''}`}
+          className={`item ${category === 'Frontend' ? 'active' : 'disabled'}`}
           onClick={(e) => handleClick(e, 'Frontend')}
         >
           <Image src={Images.Frontend} alt={'Frontend'} />
