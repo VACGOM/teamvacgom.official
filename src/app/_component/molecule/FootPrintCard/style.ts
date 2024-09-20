@@ -84,6 +84,9 @@ export const FootPrintCardWrap = styled.div`
     }
   }
   & > .right {
+    @media (max-width: 991px) {
+      width: 20px;
+    }
     & > img {
       border-radius: 10px;
       overflow: hidden;

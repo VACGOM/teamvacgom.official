@@ -40,5 +40,14 @@ export const Container = styled.main`
   .swiper-slide {
     display: flex;
     justify-content: center;
+    gap: 20px;
+  }
+  .swiper {
+    width: 130vh;
+    //gap: 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 100%;
   }
 `;

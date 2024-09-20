@@ -19,8 +19,8 @@ export default function TeamIntroduce() {
         백곰 팀원들을 <br /> 소개합니다
       </div>
       <Swiper
-        spaceBetween={0}
-        slidesPerView={4}
+        spaceBetween={40}
+        slidesPerView={5}
         loop={true}
         speed={3000}
         autoplay={{

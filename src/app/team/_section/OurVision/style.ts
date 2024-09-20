@@ -1,8 +1,11 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const Container = styled.main`
   gap: 80px;
   padding: 40px;
+  & > img {
+    width: 100%;
+  }
   & > .visionSection {
     display: flex;
     padding: 140px 102px;

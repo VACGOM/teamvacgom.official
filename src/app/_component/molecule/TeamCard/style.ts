@@ -50,6 +50,9 @@ export const TeamCardWrap = styled.div`
       gap: 10px;
       justify-content: flex-start;
       margin-top: 14px;
+      transition:
+        border 0.3s ease,
+        filter 0.3s ease;
 
       & > .link {
         display: flex;
@@ -60,6 +63,17 @@ export const TeamCardWrap = styled.div`
         gap: 10px;
         border-radius: 60px;
         border: 1px solid var(--Gray-Gray-200, #e5e8eb);
+        &:hover {
+          border: 1px solid #4196fd;
+        }
+
+        &:hover img {
+          fill: #4196fd;
+          filter: invert(37%) sepia(81%) saturate(657%) hue-rotate(190deg)
+            brightness(94%) contrast(101%);
+
+          color: #4196fd;
+        }
       }
     }
   }

@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const Container = styled.main`
   height: 1054px;
@@ -25,6 +25,12 @@ export const Container = styled.main`
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 20px;
+      @media (max-width: 1000px) {
+        & > div {
+          width: 90vw;
+        }
+        grid-template-columns: 1fr;
+      }
     }
   }
 `;
