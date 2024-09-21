@@ -33,8 +33,8 @@ import hyungju_1 from '../../public/assets/thumnails/img-thumnails-hyunju-1.jpeg
 import sohyun_1 from '../../public/assets/thumnails/img-thumnails-sohyun-1.png';
 import sohyun_2 from '../../public/assets/thumnails/img-thumnails-sohyun-2.png';
 import sohyun_3 from '../../public/assets/thumnails/img-thumnails-sohyun-3.png';
-import sohyun_4 from '../../public/assets/thumnails/img-thumnails-sohyun-4.png';
-import sohyun_5 from '../../public/assets/thumnails/img-thumnails-sohyun-5.png';
+import sohyun_4 from '../../public/assets/thumnails/img-sohyun-00.svg';
+import sohyun_5 from '../../public/assets/thumnails/img-sohyun-0.svg';
 import haebin_1 from '../../public/assets/thumnails/img-thumnnails-haebin-1.jpeg';
 
 import sohyun_profile from '../../public/assets/image/img-sohyun-profile.png';
