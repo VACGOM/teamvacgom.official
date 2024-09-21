@@ -19,9 +19,11 @@ export const FootPrintCardWrap = styled.div`
   align-self: stretch;
   flex-wrap: wrap;
   //width: 100%;
+  gap: 10px;
 
   & > .left {
     margin: 20px 0;
+    min-width: 365px;
     & > .top {
       display: flex;
       gap: 24px;
