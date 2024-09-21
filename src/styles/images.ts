@@ -55,12 +55,12 @@ import Frontend from '../../public/assets/ico/ico_Frontend.svg';
 import Backend from '../../public/assets/ico/ico_Backend.svg';
 
 // 팀원 이미지
-import img_heabin from '../../public/assets/image/변해빈.png';
-import img_minjeong from '../../public/assets/image/김민정.png';
-import img_hyungju from '../../public/assets/image/성형주.png';
-import img_yena from '../../public/assets/image/전예나.png';
-import img_sohyun from '../../public/assets/image/오소현.png';
-import img_jieun from '../../public/assets/image/김지은.png';
+import img_heabin from '../../public/assets/image/변해빈.svg';
+import img_minjeong from '../../public/assets/image/김민정.svg';
+import img_hyungju from '../../public/assets/image/성형주.svg';
+import img_yena from '../../public/assets/image/전예나.svg';
+import img_sohyun from '../../public/assets/image/오소현.svg';
+import img_jieun from '../../public/assets/image/김지은.svg';
 
 // 벡곰 이미지
 import img_introVecgom from '../../public/assets/image/introVecgom.svg';
