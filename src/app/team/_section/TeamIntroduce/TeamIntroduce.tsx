@@ -28,6 +28,24 @@ export default function TeamIntroduce() {
           disableOnInteraction: true,
         }}
         modules={[Autoplay]}
+        breakpoints={{
+          1250: {
+            slidesPerView: 5,
+            spaceBetween: 40,
+          },
+          900: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+          600: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+        }}
       >
         <SwiperSlide>
           <TeamCard

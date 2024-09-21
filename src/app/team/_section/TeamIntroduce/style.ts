@@ -43,14 +43,11 @@ export const Container = styled.main`
     gap: 20px;
   }
   .swiper {
-    width: 130vh;
-    //gap: 30px;
+    width: 130vw;
+    gap: 30px;
     display: flex;
     justify-content: center;
+    max-width: 2000px;
+    //min-width: 1300px;
   }
-    @media (max-width: 1000px) {
-        .swiper {
-            width: 100%;
-
-        }
 `;
