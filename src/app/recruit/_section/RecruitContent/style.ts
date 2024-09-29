@@ -17,7 +17,7 @@ export const Container = styled.main`
       align-self: stretch;
       color: var(--Gray-Gray-900, #191f28);
       opacity: 0.2;
-      font-family:'Montserrat', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 24px;
       font-style: normal;
       font-weight: 600;
@@ -98,7 +98,7 @@ export const Container = styled.main`
           border-radius: 6px;
           border: none;
           width: 100%;
-          background: var(--Primary, #4196fd);
+          background: ${Colors.Gray400};
           color: var(--Gray-White, #fff);
           /* title/medium */
           font-family: Pretendard;
