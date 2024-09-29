@@ -141,7 +141,9 @@ export default function RecruitContent() {
                 'https://docs.google.com/forms/d/1xrQF95D6yMcMsJl6OGndkpGjPQRtKs3txFLr8OGm1ic/edit?usp=forms_home&ths=true'
               }
             >
-              <button className={'button'}>지원하기</button>
+              <button className={'button'} disabled={true}>
+                지원 마감
+              </button>
             </a>
           </div>
         </div>
