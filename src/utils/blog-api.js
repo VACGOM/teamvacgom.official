@@ -10,7 +10,7 @@ export const BlogApi = [
     profile: Images.haebin_profile,
     editor: "해빈",
     job: "백엔드",
-    url:"https://velog.io/@h-beeen/-X-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-Univ-In-Jeju-%EC%9A%B0%EC%88%98%EC%83%81-%ED%9B%84%EA%B8%B0"
+    url:"https://velog.io/@h-beeen/kakao-X-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-Univ-In-Jeju-%EC%9A%B0%EC%88%98%EC%83%81-%ED%9B%84%EA%B8%B0"
   },
   {
     id: 2,
@@ -70,7 +70,7 @@ export const BlogApi = [
     profile: Images.hyungju_profile,
     editor: "형주",
     job:"백엔드",
-    url:"https://www.linkedin.com/posts/hyungjusung_%EC%A0%80--x-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-%EC%9C%A0%EB%8B%88%EB%B8%8C-%EB%B2%9A%EA%BD%83%ED%86%A4%EC%97%90%EC%84%9C-%EC%B5%9C%EC%9A%B0%EC%88%98%EC%83%81-activity-7179423270629175296-5S3K?utm_source=share&utm_medium=member_desktop"
+    url:"https://www.linkedin.com/posts/hyungjusung_%EC%A0%80-kakao-x-goorm-%EA%B5%AC%EB%A6%84%ED%86%A4-%EC%9C%A0%EB%8B%88%EB%B8%8C-%EB%B2%9A%EA%BD%83%ED%86%A4%EC%97%90%EC%84%9C-%EC%B5%9C%EC%9A%B0%EC%88%98%EC%83%81-activity-7179423270629175296-5S3K?utm_source=share&utm_medium=member_desktop"
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ export const BlogApi = [
     profile: Images.haebin_profile,
     editor: "해빈",
     job: "백엔드",
-    url:"https://velog.io/@h-beeen/-x-goorm-%EB%B2%9A%EA%BD%83%ED%86%A4-%EC%B5%9C%EC%9A%B0%EC%88%98%EC%83%81-%EB%B0%B1%EA%B3%B0-%ED%9A%8C%EA%B3%A0"
+    url:"https://velog.io/@h-beeen/kakao-x-goorm-%EB%B2%9A%EA%BD%83%ED%86%A4-%EC%B5%9C%EC%9A%B0%EC%88%98%EC%83%81-%EB%B0%B1%EA%B3%B0-%ED%9A%8C%EA%B3%A0"
   },
 
 ]
