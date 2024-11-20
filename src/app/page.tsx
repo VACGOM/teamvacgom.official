@@ -6,11 +6,8 @@ import BlogBox from "@/app/_component/atom/HomeButton/BlogBoxSecond";
 import LeftBox from "@/app/_component/atom/HomeButton/LeftBoxSecond";
 import RecruitBox from "@/app/_component/atom/HomeButton/RecruitBoxSecond";
 import TeamIntroBox from "@/app/_component/atom/HomeButton/TeamIntroBoxSecond";
-
-
 import BlogBoxSecond from "@/app/_component/atom/HomeButton/BlogBoxThird";
 import LeftBoxSecond from "@/app/_component/atom/HomeButton/LeftBoxThird";
-
 
 export default function Home() {
   const [showSecond, setShowSecond] = useState(false);
@@ -23,18 +20,23 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={styles.main}>
-      <MainHeader />
-      <div className={styles.content}>
-        {showSecond ? <LeftBoxSecond /> : <LeftBox />}
-        <div className={styles.rightArea}>
-          {showSecond ? <BlogBoxSecond /> : <BlogBox />}
-          <div className={styles.bottomRightBoxes}>
-            <TeamIntroBox />
-            <RecruitBox />
+    <>
+      <main className={styles.main}>
+        <MainHeader />
+        <div className={styles.content}>
+          {showSecond ? <LeftBoxSecond /> : <LeftBox />}
+          <div className={styles.rightArea}>
+            {showSecond ? <BlogBoxSecond /> : <BlogBox />}
+            <div className={styles.bottomRightBoxes}>
+              <TeamIntroBox />
+              <RecruitBox />
+            </div>
           </div>
         </div>
+      </main>
+      <div className={styles.mobileWarning}>
+        PC에서만 접근이 가능한 서비스 입니다.
       </div>
-    </main>
+    </>
   );
 }
