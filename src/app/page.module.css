@@ -29,3 +29,24 @@
   gap: 20px;
 }
 
+.mobileWarning {
+  display: none; /* 기본적으로 숨김 */
+}
+
+/* 모바일 뷰에서 콘텐츠 숨기기 및 경고 메시지 표시 */
+@media (max-width: 768px) {
+  .main {
+    display: none; /* 모바일에서 메인 콘텐츠 숨기기 */
+  }
+
+  .mobileWarning {
+    display: block; /* 모바일에서 경고 메시지 표시 */
+    text-align: center;
+    padding: 20px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin: 20px;
+  }
+}
