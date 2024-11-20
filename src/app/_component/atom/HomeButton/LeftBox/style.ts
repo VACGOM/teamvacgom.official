@@ -3,6 +3,8 @@ import styled from '@emotion/styled';
 export const LeftBoxContainer= styled.div`
   display: flex;
   width: 100%;
+  max-width: 2000px;
+  background-position: center;
   min-width: 590px;
   height: 628px;
   padding: 50px;
@@ -13,8 +15,8 @@ export const LeftBoxContainer= styled.div`
   border: 1px solid rgba(65, 150, 253, 0.2);
   background: rgba(65, 187, 253, 0.1);
   background-image: url("/assets/image/img-home-mockup.svg");
+  background-position: 140px 0px;
   background-size: contain;
-  background-position: 200px 140px;
   background-repeat: no-repeat;
 `
 
