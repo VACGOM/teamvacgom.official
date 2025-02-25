@@ -3,6 +3,8 @@ import styled from '@emotion/styled';
 export const LeftBoxContainer = styled.div`
   display: flex;
   width: 100%;
+  max-width: 2000px;
+  background-position: center;
   min-width: 590px;
   height: 628px;
   padding: 50px;
