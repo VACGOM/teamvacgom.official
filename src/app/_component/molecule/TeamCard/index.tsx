@@ -33,7 +33,7 @@ const TeamCard: React.FC<props> = ({
   return (
     <TeamCardWrap>
       <div className="top">
-        <Image src={img} alt={'팀원 이미지'} />
+        <Image src={img} alt={'팀원 이미지'} height={318} width={317} />
       </div>
       <div className="bottom">
         <div className="intro">

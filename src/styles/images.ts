@@ -61,6 +61,7 @@ import img_hyungju from '../../public/assets/image/성형주.svg';
 import img_yena from '../../public/assets/image/전예나.svg';
 import img_sohyun from '../../public/assets/image/오소현.svg';
 import img_jieun from '../../public/assets/image/김지은.svg';
+import img_youngHyun from '../../public/assets/image/img-yonghyun-profile.jpeg';
 
 // 벡곰 이미지
 import img_introVecgom from '../../public/assets/image/introVecgom.svg';
@@ -171,6 +172,7 @@ export const Images: ImagesType = {
   img_yena: img_yena,
   img_sohyun: img_sohyun,
   img_jieun: img_jieun,
+  img_youngHyun: img_youngHyun,
   
   // 백곰 캐릭터 관련 이미지
   img_introVecgom: img_introVecgom,

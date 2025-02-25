@@ -62,6 +62,19 @@ export default function TeamIntroduce() {
         </SwiperSlide>
         <SwiperSlide>
           <TeamCard
+            img={Images.img_youngHyun}
+            name={'김용현'}
+            part={{ main: 'BE' }}
+            link={{
+              mail: 'whereami2048@gmail.com',
+              linkedIn: 'https://www.linkedin.com/in/용현-김-4b74752a9/',
+              github: 'https://github.com/whereami2048',
+              blog: 'https://velog.io/@whereami2048/posts',
+            }}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <TeamCard
             img={Images.img_yena}
             name={'전예나'}
             part={{ main: 'Designer' }}
